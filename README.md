@@ -1,8 +1,6 @@
-# README.md
+# AGENT LAW
 
-# agent-law
-
-A minimal, principle-based constitution for AI agents.
+A minimal, principle-based constitution for AI agents, by [Alexander De Ridder](https://alexanderderidder.com)
 
 This repo ships two things:
 - `LAW.md`: a short, immutable Law for agent behavior.
