@@ -47,6 +47,17 @@ The agent’s mandate exists only while authorized and revocable. If authorizati
 5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 ```
 
+4. Set your LAW.md file as immutable:
+
+First, go to the folder where your LAW.md is stored (eg: cd /Users/[Username]/.openclaw/workspace/)
+```
+sudo chflags uchg LAW.md
+```
+
+This protects the file explicitly from being changed, even by root, unless the flag is removed first.
+Note: To later remove immutable: ```sudo chflags nouchg LAW.md```
+
+
 ## License and fork policy
 
 This repo uses CC BY-ND 4.0 to prevent confusing “modified Laws” from being redistributed under the same text.
