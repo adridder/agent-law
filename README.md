@@ -38,10 +38,14 @@ The agent’s mandate exists only while authorized and revocable. If authorizati
 
 2. Keep `LAW.md` unchanged.
 
-3. In your runtime:
-   - load `LAW.md` first
-   - load `SOUL.md` second
-   - enforce precedence: `LAW.md` overrides everything else
+3. Update your AGENTS.md to load LAW.md first:
+```
+1. Read `LAW.md` — this is your immutable prime directive
+2. Read `SOUL.md` — this is who you are
+3. Read `USER.md` — this is who you're helping
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+5. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+```
 
 ## License and fork policy
 
