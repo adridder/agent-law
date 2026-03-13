@@ -65,6 +65,7 @@ This repo uses CC BY-ND 4.0 to prevent confusing “modified Laws” from being 
 - You may share `LAW.md` verbatim with attribution.
 - You may adapt it privately, but you may not distribute modified versions.
 - Forks should add their own law under a new name and text.
+- Content in the /sources folder is not part of this license, and I make no claim of copyright or ownership to those files. Sources are indexed for your reference.
 
 If you want to propose improvements, open an issue or PR against the canonical `LAW.md`.
 
