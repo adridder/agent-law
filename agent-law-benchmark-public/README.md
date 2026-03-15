@@ -1,5 +1,7 @@
 # Agent Law Benchmark Public Bundle
 
+This folder is intentionally separate from the canonical `LAW.md` and `SOUL.md` texts so the benchmark can evolve without changing the law itself.
+
 - methodology docs in [methodology](./methodology)
 - public prompt texts in [prompts](./prompts)
 - the canonical raw battle-test source in [data/ethical-tests-raw-tests.txt](./data/ethical-tests-raw-tests.txt)
@@ -52,3 +54,8 @@ Important caveat:
 - interpretation guide: [methodology/INTERPRETING_RESULTS.md](./methodology/INTERPRETING_RESULTS.md)
 - Study A report: [results/study_a/analysis/summary_report.txt](./results/study_a/analysis/summary_report.txt)
 - Study A2 report: [results/study_a2/analysis/summary_report.txt](./results/study_a2/analysis/summary_report.txt)
+
+## License and reuse
+
+- Human-authored benchmark materials in this directory are licensed as described in `LICENSE.md`.
+- `NOTICE.md` explains the limits of that license for third-party model outputs, provider terms, and marks.

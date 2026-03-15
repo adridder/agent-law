@@ -1,6 +1,6 @@
 LICENSE SCOPE
 
-Unless otherwise noted, the human-authored materials in `benchmark-public/` are licensed under:
+Unless otherwise noted, the human-authored materials in `agent-law-benchmark-public/` are licensed under:
 
 Creative Commons Attribution 4.0 International
 (CC BY 4.0)
@@ -8,7 +8,7 @@ Creative Commons Attribution 4.0 International
 Covered by this license:
 - benchmark prompts and instructions authored for this project
 - rubrics, schemas, annotations, metadata, and scorecards
-- benchmark documentation and harness code in this directory
+- benchmark documentation in this directory
 - the human-authored selection, coordination, and arrangement of benchmark records
 
 Not covered and no additional rights granted:
