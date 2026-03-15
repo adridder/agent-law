@@ -1,11 +1,5 @@
 # Agent Law Benchmark Public Bundle
 
-This folder is a **publishable, non-code subset** of the local experiment workspace.
-
-It is designed to be copied into the `agent-law` repository as a subfolder.
-
-## Included
-
 - methodology docs in [methodology](./methodology)
 - public prompt texts in [prompts](./prompts)
 - the canonical raw battle-test source in [data/ethical-tests-raw-tests.txt](./data/ethical-tests-raw-tests.txt)
