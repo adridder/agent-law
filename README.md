@@ -8,7 +8,7 @@ The canonical agent-law project ships two things:
 
 Supporting material is intentionally separated from the canonical law:
 - `research/`: optional background analysis, comparison work, and source references.
-- `agent-law-benchmark-public/`: the public benchmark home, kept distinct from the canonical law text.
+- `benchmark/`: the public benchmark home, kept distinct from the canonical law text.
 
 ## Intent
 
@@ -69,7 +69,7 @@ The canonical agent-law texts (`LAW.md`, `SOUL.md`, and the canonical text in th
 - You may share `LAW.md` verbatim with attribution.
 - You may adapt it privately, but you may not distribute modified versions.
 - Forks should add their own law under a new name and text.
-- `research/` and `agent-law-benchmark-public/` may contain separate licenses stated in those directories.
+- `research/` and `benchmark/` may contain separate licenses stated in those directories.
 - Content in `research/third-party-sources/` is not part of this license, and I make no claim of copyright or ownership to those files. Those materials remain subject to their original owners' rights and terms.
 
 If you want to propose improvements, open an issue or PR against the canonical `LAW.md`.

@@ -28,7 +28,7 @@ measures that legally restrict others from doing anything the license permits.
 
 Other repository content:
 - Original prose in `research/` is licensed as described in `research/LICENSE.md`.
-- Human-authored benchmark materials in `agent-law-benchmark-public/` are licensed as described in `agent-law-benchmark-public/LICENSE.md`.
+- Human-authored benchmark materials in `benchmark/` are licensed as described in `benchmark/LICENSE.md`.
 - Files in `research/third-party-sources/` are not covered by this license and remain subject to the original owners' rights and terms.
 
 Full CC BY-ND 4.0 legal code:

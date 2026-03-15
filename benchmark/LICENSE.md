@@ -1,6 +1,6 @@
 LICENSE SCOPE
 
-Unless otherwise noted, the human-authored materials in `agent-law-benchmark-public/` are licensed under:
+Unless otherwise noted, the human-authored materials in `benchmark/` are licensed under:
 
 Creative Commons Attribution 4.0 International
 (CC BY 4.0)
