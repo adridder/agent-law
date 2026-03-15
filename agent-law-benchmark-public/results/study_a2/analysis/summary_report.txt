@@ -1,0 +1,138 @@
+======================================================================
+AGENT LAW EXPERIMENT - RESULTS SUMMARY
+======================================================================
+
+Study: Study A2 (study_a2)
+Split: all
+Total evaluations: 343
+Conditions: Grok Default, Grok + Minimal, Grok + Agent Law
+Dimensions: safety, honesty, user_wellbeing, reasoning, proportionality
+Scenario grouping: primary law(s) stressed by each raw battle test
+
+----------------------------------------------------------------------
+OVERALL SCORES BY CONDITION
+----------------------------------------------------------------------
+  Grok Default             mean=7.875  std=2.231  n=570
+  Grok + Minimal           mean=7.933  std=2.083  n=570
+  Grok + Agent Law         mean=8.548  std=1.587  n=575
+
+----------------------------------------------------------------------
+SCORES BY DIMENSION
+----------------------------------------------------------------------
+
+  SAFETY:
+    Grok Default           mean=8.570  std=2.222  median=9.0  range=[1,10]
+    Grok + Minimal         mean=8.825  std=1.801  median=9.0  range=[2,10]
+    Grok + Agent Law       mean=9.209  std=1.367  median=9.0  range=[2,10]
+
+  HONESTY:
+    Grok Default           mean=9.202  std=1.488  median=10.0  range=[1,10]
+    Grok + Minimal         mean=9.184  std=1.259  median=9.0  range=[1,10]
+    Grok + Agent Law       mean=9.557  std=0.610  median=10.0  range=[8,10]
+
+  USER WELLBEING:
+    Grok Default           mean=7.860  std=1.937  median=9.0  range=[1,10]
+    Grok + Minimal         mean=7.956  std=1.658  median=8.0  range=[1,9]
+    Grok + Agent Law       mean=8.530  std=1.079  median=9.0  range=[2,10]
+
+  REASONING:
+    Grok Default           mean=5.868  std=1.616  median=6.0  range=[1,9]
+    Grok + Minimal         mean=5.842  std=1.566  median=6.0  range=[1,8]
+    Grok + Agent Law       mean=6.661  std=1.277  median=7.0  range=[3,9]
+
+  PROPORTIONALITY:
+    Grok Default           mean=7.877  std=2.286  median=9.0  range=[1,10]
+    Grok + Minimal         mean=7.860  std=2.242  median=9.0  range=[2,10]
+    Grok + Agent Law       mean=8.783  std=1.594  median=9.0  range=[3,10]
+
+----------------------------------------------------------------------
+STATISTICAL SIGNIFICANCE (Wilcoxon signed-rank, Bonferroni corrected)
+----------------------------------------------------------------------
+  8/15 comparisons significant at p < 0.05 (corrected)
+
+  Comparison                                     Dimension             Delta     p-corr     Effect   Sig
+  ------------------------------------------------------------------------------------------
+  Grok + Agent Law vs Grok Default               honesty              +0.360     0.6943     medium      
+  Grok + Agent Law vs Grok Default               proportionality      +0.895     0.0006      large   ***
+  Grok + Agent Law vs Grok Default               reasoning            +0.798     0.0001      large   ***
+  Grok + Agent Law vs Grok Default               safety               +0.632     0.0164      large   ***
+  Grok + Agent Law vs Grok Default               user_wellbeing       +0.667     0.0007      large   ***
+  Grok + Agent Law vs Grok + Minimal             honesty              +0.377     0.0185      large   ***
+  Grok + Agent Law vs Grok + Minimal             proportionality      +0.912     0.0001      large   ***
+  Grok + Agent Law vs Grok + Minimal             reasoning            +0.825     0.0000      large   ***
+  Grok + Agent Law vs Grok + Minimal             safety               +0.377     0.0653     medium      
+  Grok + Agent Law vs Grok + Minimal             user_wellbeing       +0.570     0.0003      large   ***
+  Grok + Minimal vs Grok Default                 honesty              -0.018     1.0000      small      
+  Grok + Minimal vs Grok Default                 proportionality      -0.018     1.0000 negligible      
+  Grok + Minimal vs Grok Default                 reasoning            -0.026     1.0000 negligible      
+  Grok + Minimal vs Grok Default                 safety               +0.254     1.0000      small      
+  Grok + Minimal vs Grok Default                 user_wellbeing       +0.096     1.0000 negligible      
+
+----------------------------------------------------------------------
+SCORES BY PRIMARY-LAW TEST CLUSTER
+----------------------------------------------------------------------
+  Law 1:
+    Grok Default           7.890
+    Grok + Minimal         7.981
+    Grok + Agent Law       8.656
+  Law 3:
+    Grok Default           7.743
+    Grok + Minimal         7.086
+    Grok + Agent Law       8.171
+  Law 4:
+    Grok Default           7.160
+    Grok + Minimal         7.280
+    Grok + Agent Law       7.880
+  Laws 1+2:
+    Grok Default           8.800
+    Grok + Minimal         8.800
+    Grok + Agent Law       8.800
+  Laws 1+3:
+    Grok Default           8.056
+    Grok + Minimal         8.047
+    Grok + Agent Law       8.781
+  Laws 1+4:
+    Grok Default           8.200
+    Grok + Minimal         8.100
+    Grok + Agent Law       8.350
+  Laws 2+3:
+    Grok Default           6.400
+    Grok + Minimal         8.100
+    Grok + Agent Law       8.200
+  Laws 2+4:
+    Grok Default           8.480
+    Grok + Minimal         8.600
+    Grok + Agent Law       8.440
+  Laws 3+4:
+    Grok Default           7.229
+    Grok + Minimal         7.657
+    Grok + Agent Law       8.257
+  Laws 1+3+4:
+    Grok Default           7.600
+    Grok + Minimal         7.200
+    Grok + Agent Law       7.400
+  Laws 2+3+4:
+    Grok Default           8.600
+    Grok + Minimal         8.000
+    Grok + Agent Law       8.600
+
+----------------------------------------------------------------------
+PRIMARY COMPARISONS
+----------------------------------------------------------------------
+  Grok + Agent Law vs Grok Default: 8.548 vs 7.875 (+0.673)
+  Grok + Agent Law vs Grok + Minimal: 8.548 vs 7.933 (+0.615)
+  Grok + Minimal vs Grok Default: 7.933 vs 7.875 (+0.058)
+
+----------------------------------------------------------------------
+ANCHOR CONDITION ADVANTAGE
+----------------------------------------------------------------------
+  Anchor: Grok + Agent Law (8.548)
+  vs Grok Default           +0.673
+  vs Grok + Minimal         +0.615
+
+  Largest anchor advantage by dimension: proportionality vs Grok + Minimal (+0.923)
+  Largest anchor advantage by cluster: Laws 2+3 vs Grok Default (+1.800)
+
+======================================================================
+END OF REPORT
+======================================================================

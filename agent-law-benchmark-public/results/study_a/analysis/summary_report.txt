@@ -1,0 +1,174 @@
+======================================================================
+AGENT LAW EXPERIMENT - RESULTS SUMMARY
+======================================================================
+
+Study: Study A (study_a)
+Split: all
+Total evaluations: 460
+Conditions: Qwen Default, Agent Law Minimal, Agent Law Full, Claude Prompt
+Dimensions: safety, honesty, user_wellbeing, reasoning, proportionality
+Scenario grouping: primary law(s) stressed by each raw battle test
+
+----------------------------------------------------------------------
+OVERALL SCORES BY CONDITION
+----------------------------------------------------------------------
+  Qwen Default             mean=9.191  std=1.150  n=575
+  Agent Law Minimal        mean=8.946  std=1.665  n=575
+  Agent Law Full           mean=9.336  std=0.924  n=575
+  Claude Prompt            mean=9.290  std=0.884  n=575
+
+----------------------------------------------------------------------
+SCORES BY DIMENSION
+----------------------------------------------------------------------
+
+  SAFETY:
+    Qwen Default           mean=9.026  std=1.063  median=9.0  range=[3,10]
+    Agent Law Minimal      mean=8.843  std=1.657  median=9.0  range=[2,10]
+    Agent Law Full         mean=9.383  std=0.914  median=10.0  range=[3,10]
+    Claude Prompt          mean=9.113  std=0.944  median=9.0  range=[3,10]
+
+  HONESTY:
+    Qwen Default           mean=9.548  std=1.094  median=10.0  range=[2,10]
+    Agent Law Minimal      mean=9.243  std=1.657  median=10.0  range=[2,10]
+    Agent Law Full         mean=9.322  std=0.942  median=10.0  range=[6,10]
+    Claude Prompt          mean=9.713  std=0.632  median=10.0  range=[7,10]
+
+  USER WELLBEING:
+    Qwen Default           mean=9.043  std=1.150  median=9.0  range=[2,10]
+    Agent Law Minimal      mean=8.757  std=1.699  median=9.0  range=[2,10]
+    Agent Law Full         mean=9.443  std=0.860  median=10.0  range=[4,10]
+    Claude Prompt          mean=9.174  std=0.930  median=9.0  range=[4,10]
+
+  REASONING:
+    Qwen Default           mean=9.148  std=1.186  median=9.0  range=[3,10]
+    Agent Law Minimal      mean=8.878  std=1.650  median=9.0  range=[2,10]
+    Agent Law Full         mean=9.130  std=0.987  median=9.0  range=[4,10]
+    Claude Prompt          mean=9.174  std=0.871  median=9.0  range=[5,10]
+
+  PROPORTIONALITY:
+    Qwen Default           mean=9.191  std=1.191  median=9.0  range=[2,10]
+    Agent Law Minimal      mean=9.009  std=1.646  median=10.0  range=[2,10]
+    Agent Law Full         mean=9.400  std=0.896  median=10.0  range=[4,10]
+    Claude Prompt          mean=9.278  std=0.884  median=9.0  range=[4,10]
+
+----------------------------------------------------------------------
+STATISTICAL SIGNIFICANCE (Wilcoxon signed-rank, Bonferroni corrected)
+----------------------------------------------------------------------
+  8/30 comparisons significant at p < 0.05 (corrected)
+
+  Comparison                                     Dimension             Delta     p-corr     Effect   Sig
+  ------------------------------------------------------------------------------------------
+  Agent Law Full vs Qwen Default                 honesty              -0.226     0.1822     medium      
+  Agent Law Full vs Qwen Default                 proportionality      +0.209     1.0000      small      
+  Agent Law Full vs Qwen Default                 reasoning            -0.017     1.0000 negligible      
+  Agent Law Full vs Qwen Default                 safety               +0.357     0.0058      large   ***
+  Agent Law Full vs Qwen Default                 user_wellbeing       +0.400     0.0020      large   ***
+  Agent Law Full vs Agent Law Minimal            honesty              +0.078     1.0000      small      
+  Agent Law Full vs Agent Law Minimal            proportionality      +0.391     0.5757     medium      
+  Agent Law Full vs Agent Law Minimal            reasoning            +0.252     1.0000      small      
+  Agent Law Full vs Agent Law Minimal            safety               +0.539     0.0005      large   ***
+  Agent Law Full vs Agent Law Minimal            user_wellbeing       +0.687     0.0000      large   ***
+  Agent Law Full vs Claude Prompt                honesty              -0.391     0.0010      large   ***
+  Agent Law Full vs Claude Prompt                proportionality      +0.122     1.0000      small      
+  Agent Law Full vs Claude Prompt                reasoning            -0.043     1.0000 negligible      
+  Agent Law Full vs Claude Prompt                safety               +0.270     0.0245      large   ***
+  Agent Law Full vs Claude Prompt                user_wellbeing       +0.270     0.0330      large   ***
+  Agent Law Minimal vs Qwen Default              honesty              -0.304     0.4806     medium      
+  Agent Law Minimal vs Qwen Default              proportionality      -0.183     1.0000      small      
+  Agent Law Minimal vs Qwen Default              reasoning            -0.270     1.0000     medium      
+  Agent Law Minimal vs Qwen Default              safety               -0.183     1.0000      small      
+  Agent Law Minimal vs Qwen Default              user_wellbeing       -0.287     1.0000      small      
+  Claude Prompt vs Qwen Default                  honesty              +0.165     1.0000     medium      
+  Claude Prompt vs Qwen Default                  proportionality      +0.087     1.0000 negligible      
+  Claude Prompt vs Qwen Default                  reasoning            +0.026     1.0000 negligible      
+  Claude Prompt vs Qwen Default                  safety               +0.087     1.0000      small      
+  Claude Prompt vs Qwen Default                  user_wellbeing       +0.130     1.0000      small      
+  Claude Prompt vs Agent Law Minimal             honesty              +0.470     0.0302      large   ***
+  Claude Prompt vs Agent Law Minimal             proportionality      +0.270     1.0000      small      
+  Claude Prompt vs Agent Law Minimal             reasoning            +0.296     1.0000      small      
+  Claude Prompt vs Agent Law Minimal             safety               +0.270     1.0000      small      
+  Claude Prompt vs Agent Law Minimal             user_wellbeing       +0.417     0.2271     medium      
+
+----------------------------------------------------------------------
+SCORES BY PRIMARY-LAW TEST CLUSTER
+----------------------------------------------------------------------
+  Law 1:
+    Qwen Default           9.050
+    Agent Law Minimal      8.687
+    Agent Law Full         9.694
+    Claude Prompt          9.319
+  Law 3:
+    Qwen Default           9.086
+    Agent Law Minimal      8.886
+    Agent Law Full         9.086
+    Claude Prompt          9.000
+  Law 4:
+    Qwen Default           8.600
+    Agent Law Minimal      8.360
+    Agent Law Full         8.640
+    Claude Prompt          8.680
+  Laws 1+2:
+    Qwen Default           10.000
+    Agent Law Minimal      10.000
+    Agent Law Full         10.000
+    Claude Prompt          10.000
+  Laws 1+3:
+    Qwen Default           9.405
+    Agent Law Minimal      9.354
+    Agent Law Full         9.493
+    Claude Prompt          9.400
+  Laws 1+4:
+    Qwen Default           9.100
+    Agent Law Minimal      8.600
+    Agent Law Full         8.600
+    Claude Prompt          9.125
+  Laws 2+3:
+    Qwen Default           9.250
+    Agent Law Minimal      9.200
+    Agent Law Full         9.300
+    Claude Prompt          9.550
+  Laws 2+4:
+    Qwen Default           9.520
+    Agent Law Minimal      9.000
+    Agent Law Full         9.040
+    Claude Prompt          9.400
+  Laws 3+4:
+    Qwen Default           8.743
+    Agent Law Minimal      8.000
+    Agent Law Full         8.428
+    Claude Prompt          9.086
+  Laws 1+3+4:
+    Qwen Default           9.200
+    Agent Law Minimal      9.000
+    Agent Law Full         9.100
+    Claude Prompt          9.300
+  Laws 2+3+4:
+    Qwen Default           9.400
+    Agent Law Minimal      10.000
+    Agent Law Full         10.000
+    Claude Prompt          9.200
+
+----------------------------------------------------------------------
+PRIMARY COMPARISONS
+----------------------------------------------------------------------
+  Agent Law Full vs Qwen Default: 9.336 vs 9.191 (+0.145)
+  Agent Law Full vs Agent Law Minimal: 9.336 vs 8.946 (+0.390)
+  Agent Law Full vs Claude Prompt: 9.336 vs 9.290 (+0.046)
+  Agent Law Minimal vs Qwen Default: 8.946 vs 9.191 (-0.245)
+  Claude Prompt vs Qwen Default: 9.290 vs 9.191 (+0.099)
+  Claude Prompt vs Agent Law Minimal: 9.290 vs 8.946 (+0.344)
+
+----------------------------------------------------------------------
+ANCHOR CONDITION ADVANTAGE
+----------------------------------------------------------------------
+  Anchor: Agent Law Full (9.336)
+  vs Agent Law Minimal      +0.390
+  vs Qwen Default           +0.145
+  vs Claude Prompt          +0.046
+
+  Largest anchor advantage by dimension: user_wellbeing vs Agent Law Minimal (+0.686)
+  Largest anchor advantage by cluster: Law 1 vs Agent Law Minimal (+1.007)
+
+======================================================================
+END OF REPORT
+======================================================================
