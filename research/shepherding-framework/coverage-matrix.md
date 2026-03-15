@@ -2,6 +2,8 @@
 
 Which principles from the Shepherding Framework and Agent Law are addressed by each vendor's system prompt or published specification (Model Spec, system card, model card, technical report)?
 
+This file is supporting analysis, not part of the canonical `LAW.md` text.
+
 **Legend:** ✅ Directly addressed — 🟡 Partially or indirectly addressed — ❌ Not addressed — P = prompt, S = spec/card
 
 ---
@@ -82,4 +84,4 @@ How many of the 10 principles (6 Framework + 4 Agent Law) does each vendor addre
 
 ---
 
-*Sources: All prompt files in `sources/prompt-*.md`, OpenAI Model Spec (`sources/openai-model-spec-github.md`), xAI model cards and risk frameworks, DeepSeek R1 paper, Qwen technical reports, Anthropic Constitutional AI paper. Full index: `sources/INDEX.md`.*
+*Sources: Third-party prompt captures and papers indexed in `../third-party-sources/INDEX.md`, including OpenAI Model Spec materials, xAI model cards and risk frameworks, DeepSeek R1 papers, Qwen technical reports, and Anthropic Constitutional AI materials.*

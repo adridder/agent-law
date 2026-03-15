@@ -2,6 +2,12 @@
 
 All primary sources for the system prompt comparison, organized by company. Compiled March 2026.
 
+This index mixes two kinds of references:
+- files bundled locally in this directory
+- upstream references cited for traceability but not necessarily mirrored in this repository
+
+If a filename is mentioned below and is not present locally, treat it as an external reference target rather than as a licensed repo asset.
+
 ---
 
 ## Anthropic (Claude)

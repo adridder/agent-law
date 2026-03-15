@@ -2,9 +2,13 @@
 
 A minimal, principle-based constitution for AI agents, by [Alexander De Ridder](https://alexanderderidder.com)
 
-This repo ships two things:
+The canonical agent-law project ships two things:
 - `LAW.md`: a short, immutable Law for agent behavior.
 - `SOUL.md`: a practical template for agent identity and operating posture.
+
+Supporting material is intentionally separated from the canonical law:
+- `research/`: optional background analysis, comparison work, and source references.
+- `benchmark-public/`: the public benchmark home, kept distinct from the canonical law text.
 
 ## Intent
 
@@ -60,12 +64,13 @@ Note: To later remove immutable: ```sudo chflags nouchg LAW.md```
 
 ## License and fork policy
 
-This repo uses CC BY-ND 4.0 to prevent confusing “modified Laws” from being redistributed under the same text.
+The canonical agent-law texts (`LAW.md`, `SOUL.md`, and the canonical text in this README) use CC BY-ND 4.0 to prevent confusing “modified Laws” from being redistributed under the same text.
 
 - You may share `LAW.md` verbatim with attribution.
 - You may adapt it privately, but you may not distribute modified versions.
 - Forks should add their own law under a new name and text.
-- Content in the /sources folder is not part of this license, and I make no claim of copyright or ownership to those files. Sources are indexed for your reference.
+- `research/` and `benchmark-public/` may contain separate licenses stated in those directories.
+- Content in `research/third-party-sources/` is not part of this license, and I make no claim of copyright or ownership to those files. Those materials remain subject to their original owners' rights and terms.
 
 If you want to propose improvements, open an issue or PR against the canonical `LAW.md`.
 
